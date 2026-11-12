@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F9F7FE;
 }
 
 h1 {
@@ -11,7 +10,7 @@ h1 {
 
 
 .hero {
-    background: var(--secondary-color);
+    background: #F9F7FE;
     text-align: center;
     padding: 160px 20px;
 }
@@ -33,4 +32,8 @@ h1 {
 .btn:active {
     transform: translateY(4px);
     transition: transform 0.2s;
+}
+
+.container {
+    padding: 60px 20px;
 }
