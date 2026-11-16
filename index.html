@@ -12,16 +12,42 @@
     <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
+      <nav class="d-flex justify-content-between align-items-center">
+        <a href="index.html">
+          <img src="images/emoji.png" class="logo d-none d-md-block" alt="">
+          <img src="images/emoji.jpg" class="logo d-block d-md-none" alt="">
+        </a>
+        <ul>
+          <li class="active">
+            <a href="index.html"> Home</a>
+          </li>
+          <li>
+            <a href="about.html"> About</a>
+          </li>
+          <li>
+            <a href="work.html"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
         <h2>👋 Hello, I'm</h2>
         <h1>Samantha</h1>
         <h3 class="mb-5">Analytics Engineer</h3>
         <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
+            <a href="contact.html" class="btn btn-branding">Contact me</a>
         </div>
     </div>
+    <p class="text-center m-5">
+      Featured Projects - A selection of my best work showcasing my skills and
+      expertise
+    </p>
     <div class="container">
-      <div class="row mb-5">
+      <div class="row mb-5 align-items-center">
         <div class="col d-none d-lg-block">
           <img src="images/recipe.png" class="img-fluid" alt="Recipe Generator Project">
         </div>
@@ -38,7 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row mb-5 align-items-center">
         <div class="col">
           <div class="project-desciption">
             <h2 class="mb-5">Weather App</h2>
@@ -55,7 +81,7 @@
           <img src="images/weather.png" class="img-fluid" alt="">
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5 align-items-center">
         <div class="col d-none d-lg-block">
           <img src="images/clock.png" class="img-fluid" alt="">
         </div>
@@ -72,10 +98,7 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/trip-planner.png" class="img-fluid" alt="Trip Planner Project">
-        </div>
+      <div class="row mb-5 align-items-center">
         <div class="col">
           <div class="project-desciption">
             <h2 class="mb-5">Trip Planner Project</h2>
@@ -87,6 +110,9 @@
             </p>
             <a href="" class="btn btn-branding-outline"> Learn more </a>
           </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="images/trip-planner.png" class="img-fluid" alt="Trip Planner Project">
         </div>
       </div>
     </div>
