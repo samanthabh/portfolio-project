@@ -6,6 +6,7 @@ h1 {
     color: rgb(197, 68, 131);
     padding-bottom: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -48,11 +49,11 @@ h1 {
     padding: 60px 20px;
 }
 
-.about-section {
+.content-container {
     text-align: center;
 }
 
-.about-section-content {
+.content {
     margin: 30px;
 }
 
@@ -60,4 +61,24 @@ h1 {
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+}
+
+.project {
+    text-align: center;
+    background-color: #F9F7FE;
+    padding: 24px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers everything vertically inside the card */
+    align-items: center;     /* Centers everything horizontally inside the card */
+    text-align: center;
+    background-color: #F9F7FE;
+    padding: 24px;
+    border-radius: 10px;
+    height: 100%;
 }
