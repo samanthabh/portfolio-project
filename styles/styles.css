@@ -37,3 +37,13 @@ h1 {
 .container {
     padding: 60px 20px;
 }
+
+.about-section-content {
+    margin: 30px;
+}
+
+.my-photo {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
