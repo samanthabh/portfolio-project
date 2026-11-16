@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 .logo {
-    max-height: 80px;
+    height: clamp(40px, 8vw, 75px);
     width: auto;
 }
 
